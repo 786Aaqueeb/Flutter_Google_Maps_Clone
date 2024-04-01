@@ -1,0 +1,14 @@
+{
+  "@@locale": "en_US",
+  "app_name": "Weather Data",
+
+  "app_requires_location_services_and_permission_title": "This app requires GPS enabled and location permission granted",
+  "request_gps_services_button": "Request GPS services",
+  "locating_user_on_map_text": "Locating user on map...",
+  "user_location_is_unknown_text": "User location is unknown!",
+
+  "max_temperature_subtitle": "Max:",
+  "min_temperature_subtitle": "Min:",
+  "weather_5_days_forecast_title": "5-DAY FORECAST"
+
+}
