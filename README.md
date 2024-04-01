@@ -1,4 +1,4 @@
-# Overview: Solar Energy Prediction (Flutter app)
+# Overview: Google Maps Implemented Weather Prediction (Flutter app)
 
 Welcome to Solar Energy Prediction, the Stori Mobile Take-Home test for Flutter mobile developers.
 
@@ -45,62 +45,6 @@ Welcome to Solar Energy Prediction, the Stori Mobile Take-Home test for Flutter 
 - **domain**: here, you can find the core of the app. All business rules related to the problem to be solved are included. Entities and UseCases will indicate what this weather app is about.
 - **infrastructure**: this layer defines the access to external services such as OpenWeatherAPI or other datasources.
 
-
-### Demo:
-<img src="docs/gifs/app_demo.gif" width="350" height="650"/>
-
-
-### Small device:
-<img src="docs/gifs/small_device_demo.gif" width="350" height="600"/>
-
-
-### Landscape mode:
-<img src="docs/images/landscape_mode.png" width="600" height="300"/>
-
-
-# Installation
-
-1. Clone this repository and import in into **Android Studio**:
-
-```bash  
-git clone https://github.com/JorgeDiazz/SolarEnergyPrediction.git
-```  
-
-2. To download required dependencies
-```
-flutter pub get
-```
-
-3. Rename .env.template to .env and set the following key:
-```
-OPEN_WEATHER_MAP_KEY=5e07f82e7fb83ad9d7d94971f2b7630a
-```
-
-4. To generate files:
-```
-dart run build_runner build --delete-conflicting-outputs
-```
-
-5. To run the app:
-```
-flutter run -d [device_id]
-```
-
-6. Besides, you will want to run tests and validate linters:
-
-- To run all tests and generate Golden tests images
-```
-flutter test --update-goldens
-```
-
-<img src="docs/images/unit_tests.png"/>
-
-
-- To format the project source code:
-```
-1. dart analyze .
-2. dart format .
-```
 
 --
 
